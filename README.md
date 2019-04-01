@@ -10,4 +10,4 @@
 * add Connected Services and choose Unchase Odata
 * paste metadata URL (http://yourserver:7048/DynamicsNAV130/ODataV4/$metadata)
 * add controller (e.g. scaffolded MVC controller with read/write action)
-* write code to query data from NAV (check <pre>NAVContentController.cs<pre>, under <pre>public ActionResult Index()<pre>)
+* write code to query data from NAV (check <pre>NAVContentController.cs</pre>, under <pre>public ActionResult Index()</pre>)
