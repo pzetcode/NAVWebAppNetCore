@@ -6,13 +6,8 @@
 
 #### Repro steps:
 * page Customer needs to be published in NAV as OData service
-
 * create new Visual Studio project (specification: ASP.Net Core, MVC, Windows Authorization)
-
 * add Connected Services and choose Unchase Odata
-
 * paste metadata URL (http://yourserver:7048/DynamicsNAV130/ODataV4/$metadata)
-
-* add controler (e.g. MVC controller with read/write action)
-
-* write code to query data from NAV (check NAVContentController.cs, unde public ActionResult Index() )
+* add controller (e.g. scaffolded MVC controller with read/write action)
+* write code to query data from NAV (check <pre>NAVContentController.cs<pre>, under <pre>public ActionResult Index()<pre>)
