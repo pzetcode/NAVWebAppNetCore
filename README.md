@@ -15,4 +15,4 @@
 
 * add controler (e.g. MVC controller with read/write action)
 
-* write code to query data from NAV (check NAVContentController.cs, public ActionResult Index())
+* write code to query data from NAV (check NAVContentController.cs, unde public ActionResult Index() )
