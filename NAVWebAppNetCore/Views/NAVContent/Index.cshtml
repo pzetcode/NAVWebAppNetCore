@@ -1,0 +1,16 @@
+﻿@model List<NAVContentClass>
+@{
+    ViewData["Title"] = "NAV Customers";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>Customer counter:  @ViewData["Message"]</h3>
+
+<table>
+    <tr><th>No</th><th>Name</th></tr>
+    @foreach (var item in Model)
+    {
+    <tr><td width="100">@item.No</td><td width="300">@item.Name</td></tr>
+    }
+</table>
+
+<a asp-action="Create">Create</a>
